@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Étiquettes</title>
+<link rel="apple-touch-icon" href="icon-192.png">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<meta name="apple-mobile-web-app-title" content="Étiquettes">
+<meta name="theme-color" content="#1d6b4f">
+<style>
+html,body{height:100%;margin:0}
+body{background:#1d6b4f;color:#fff;font-family:-apple-system,Helvetica,Arial,sans-serif;display:flex;align-items:center;justify-content:center;text-align:center}
+main{max-width:340px;padding:24px}
+img{width:96px;height:96px;border-radius:22px}
+h1{font-size:22px;margin:16px 0 6px}
+p{font-size:16px;line-height:1.4;margin:8px 0}
+a.b{display:inline-block;margin-top:16px;padding:14px 22px;background:#fff;color:#1d6b4f;font-weight:bold;font-size:17px;border-radius:12px;text-decoration:none}
+a.s{color:#d9e8df}
+small{display:block;margin-top:22px;opacity:.85;font-size:13px;line-height:1.4}
+</style>
+</head>
+<body>
+<main>
+<img src="icon-192.png" alt="">
+<h1>Étiquettes pour congélation</h1>
+<p>Ouverture dans Bluefy…</p>
+<a class="b" id="go" href="bluefy://open?url=etiquettes-congelation.vercel.app">Ouvrir dans Bluefy</a>
+<small>Si rien ne se passe, touchez le bouton ci-dessus.<br>Bluefy n'est pas installé ? <a class="s" href="https://apps.apple.com/fr/app/bluefy/id1492822055">Le télécharger</a></small>
+</main>
+<script>
+setTimeout(function(){ window.location.href = "bluefy://open?url=etiquettes-congelation.vercel.app"; }, 400);
+</script>
+</body>
+</html>
